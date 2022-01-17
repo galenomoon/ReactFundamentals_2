@@ -1,0 +1,25 @@
+.layout {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.header h1 {
+  margin: 0;
+  font-size: 1.4rem;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #777;
+}
+.header a {
+  background-color: red;
+  padding: 5px 12px;
+  border-radius: 5px;
+}
+
+.content {
+  padding: 25px;
+  height: 100%;
+}
