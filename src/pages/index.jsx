@@ -8,7 +8,7 @@ export default function Home() {
         justifyContent: "center",
         alignItems: "center",
         height: "100vh",
-        flexWrap: "wrap"
+        flexWrap: "wrap",
       }}
     >
       <Navigator texto="Estilo" destino="/estiloso" />
@@ -16,6 +16,7 @@ export default function Home() {
       <Navigator texto="JSX" destino="/jsx" />
       <Navigator texto="Navegação #01" destino="/navegation" />
       <Navigator texto="Navegação #02" destino="/cliente/sp_2/123" />
+      <Navigator texto="State" destino="/estado" />
     </div>
   );
 }
