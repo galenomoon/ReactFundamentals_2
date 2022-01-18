@@ -3,5 +3,6 @@
   padding: 30px;
   margin: 10px;
   border-radius: 8px;
-  color: #fff
+  color: #fff;
+    cursor: pointer;
 }
