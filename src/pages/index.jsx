@@ -17,6 +17,7 @@ export default function Home() {
       <Navigator texto="Navegação #01" destino="/navegation" />
       <Navigator texto="Navegação #02" destino="/cliente/sp_2/123" />
       <Navigator texto="State" destino="/estado" />
+      <Navigator texto="Integração com API" destino="/integration_1" />
     </div>
   );
 }
